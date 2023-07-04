@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a class="logo-link" href="Main.html"><p class="logo">
+          <img 
+              src="images/logo.png"
+          />
+        </p></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#footer">ABOUT</a></li>
+            <li><a href="#course">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="#cta">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Computer Science University</h1>
+        <p>
+          Welcome to Computer Science University, where innovation meets excellence. <br />
+          Explore the world of technology and discover endless possibilities. Join us today!
+        </p>
+        <a href="" class="hero-btn">Learn More</a>
+      </div>
+    </section>
+
+    <!------------------------Course-------------------------------------------->
+
+    <section id="course" class="course">
+      <h1>OUR COURSES</h1>
+      <p>Explore our wide range of courses designed to enhance your knowledge and skills.</p>
+    
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Take your skills to the next level with our Intermediate courses. Whether you're looking to build a solid foundation or expand your expertise, we have the perfect courses for you. Join us and unlock your potential.
+          </p>
+        </div>
+    
+        <div class="course-col">
+          <h3>Bachelors</h3>
+          <p>
+            Earn your Bachelor's degree in Computer Science with our comprehensive programs. Gain in-depth knowledge, hands-on experience, and prepare yourself for a successful career in the ever-evolving field of technology.
+          </p>
+        </div>
+    
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Elevate your career prospects with our Post Graduation courses. Specialize in advanced areas of computer science and acquire the skills necessary to become a leader in the industry. Join our community of motivated learners.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    
+    <!----------------------Campus----------------------------->
+
+    <section class="campus">
+      <h1>OUR NATIONAL CAMPUSES</h1>
+      <p>Experience the world-class education we offer across our international campuses.</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img
+            src="images/mumbai.png"
+          />
+          <div class="layer">
+            <h3>MUMBAI</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img
+            src="images/chennai.png"
+          />
+          <div class="layer">
+            <h3>CHENNAI</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img
+            src="images/kochi.png"
+          />
+          <div class="layer">
+            <h3>KOCHI</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!---------------facilites---------------------------------------->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Explore the exceptional facilities we provide to enhance your learning experience.</p>
+    
+      <div class="row">
+        <div class="facilities-col">
+          <img 
+            src="images/library.png" />
+          <h3>World-Class Library</h3>
+          <p>Immerse yourself in our extensive collection of resources and books that cater to all academic needs.</p>
+        </div>
+    
+        <div class="facilities-col">
+          <img 
+            src="images/cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>Indulge in a wide variety of delicious and nutritious meals prepared by our experienced chefs.</p>
+        </div>
+    
+        <div class="facilities-col">
+          <img 
+            src="images/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>Engage in sports and physical activities on our spacious and well-maintained play ground.</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-----------------------------testimonial-------------------------------------->
+
+    <section class="testimonial">
+      <h1>What Our Alumni Says</h1>
+      <p class="test-p">
+        Hear what our esteemed alumni have to say about their experience with us.
+      </p>
+
+      <div class="testimonial-col flex-col">
+        <img src="images/user1.png" />
+        <div>
+          <p>
+            I had an amazing time studying at Computer Science University. 
+            The faculty is highly knowledgeable, and the learning environment is top-notch. 
+            The practical approach to education helped me gain valuable skills 
+            that have been instrumental in my career.
+          </p>
+          <h3>Rahul Kumar</h3>
+        </div>
+      </div>
+
+      <div class="testimonial-col">
+        <img src="images/user2.png" />
+        <div>
+          <p>
+            Computer Science University provided me with a solid foundation 
+            in the field of computer science. The curriculum is comprehensive, 
+            and the professors are dedicated to ensuring students' success. 
+            The university's emphasis on hands-on projects 
+            prepared me well for real-world challenges.
+          </p>
+          <h3>Ajay Kumara</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------Call to action-------------------------------------->
+
+    <section id="cta" class="cta">
+      <h1>
+        Enroll for Our Various Online Courses <br />
+        Anywhere From The World
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!------------------------footer---------------------------------->
+    <hr />
+    <section id="footer" class="footer">
+      <h4>About Us</h4>
+      <p>
+        We are a dedicated team of professionals striving to provide 
+        the best educational experience for our students.<br>
+        With a focus on innovation and excellence, we aim to empower our students with the knowledge and 
+        skills they need to succeed in their academic and professional journeys.<br>
+        Through our rigorous curriculum, state-of-the-art facilities, 
+        and supportive learning environment, we ensure that our students receive a comprehensive education 
+        that prepares them for the challenges of the future.
+      </p>
+
+      <div class="social-links">
+        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+      <p>Made by @venky</p>
+    </section>
+
+    <!-----------------------JavaScript Toggle Menu---------------------------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-300px";
+      }
+    </script>
+  </body>
+</html>
